@@ -1,0 +1,64 @@
+:root{
+    --Cinza_Escuro: #252525;
+    --Cinza_Claro: #393838;
+    --Branco: #fafbfc;
+    --Azul_Escuro: #022144;
+}
+
+.header_tema_1{
+    background-color: var(--Branco);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 100px;
+    width: calc(100% - 200px);
+    height: 80px;
+}
+.header_tema_2{
+    background-color: var(--Cinza_Escuro);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 100px;
+    width: calc(100% - 200px);
+    height: 80px;
+}
+
+.div-logo{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+}
+.div-logo img{
+    width: 65px;
+    height: 40px;
+}
+
+.div-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 50%;
+}
+.div-nav button{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+}
+
+.button_1{
+    background: url("../../../public/assets/moon.png");
+    background-color: rgb(214, 214, 214);
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.button_2{
+    background: url("../../../public/assets/sun.png");
+    background-color: rgb(141, 141, 141);
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
