@@ -50,6 +50,9 @@
         border-radius: 50%;
         border: none;
     }
+    .div-nav button:hover{
+        cursor: pointer;
+    }
 
     .button_1{
         background: url("../../../public/assets/moon.png");
@@ -111,6 +114,9 @@
         height: 40px;
         border-radius: 50%;
         border: none;
+    }
+    .div-nav button:hover{
+        cursor: pointer;
     }
 
     .button_1{
@@ -174,6 +180,9 @@
         border-radius: 50%;
         border: none;
     }
+    .div-nav button:hover{
+        cursor: pointer;
+    }
 
     .button_1{
         background: url("../../../public/assets/moon.png");
@@ -235,6 +244,9 @@
         height: 40px;
         border-radius: 50%;
         border: none;
+    }
+    .div-nav button:hover{
+        cursor: pointer;
     }
 
     .button_1{
