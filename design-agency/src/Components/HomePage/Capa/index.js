@@ -3,19 +3,19 @@ import './style.css';
 
 const Capa = (props) => {
     return(
-        <footer className="capa">
-            <div className={props.capa_teme}>
+        <div className={props.capa_teme}>
+            <div id="image-post_light">
                 <img src="/assets/banner.png" alt="Post" title="Post"/>
             </div>
-            <div className="title">
+            <div className="title-post">
                 <p>BRANDINO / UI /UX / TECNOLOGIA</p>
-                <h1>Agência de Branding
+                <h1>Agência de Branding 
                     <br/>
-                    <span>e Design Digital</span>
+                    <span id="span-title">e Design Digital</span> 
                 </h1>
             </div>
-        </footer>
+        </div> 
     );
 }
 
-export default Capa;
+export default Capa; 
